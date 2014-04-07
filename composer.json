@@ -8,6 +8,9 @@
             "Lavoiesl\\APCPolyfill\\Test\\": "tests/"
         }
     },
+    "require": {
+        "ext-apcu": "*"
+    },
     "license": "MIT",
     "authors": [
         {
