@@ -8,3 +8,5 @@ php:
 before_script:
     - echo "no" | pecl install apcu-beta
     - composer --prefer-source install
+
+sudo: false
