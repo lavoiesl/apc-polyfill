@@ -24,7 +24,7 @@ if (function_exists('apcu_cas') && !function_exists('apc_cas')) {
 if (function_exists('apcu_clear_cache') && !function_exists('apc_clear_cache')) {
     function apc_clear_cache($cache_type = "")
     {
-        return apcu_clear_cache($cache_type);
+        return apcu_clear_cache();
     }
 }
 
