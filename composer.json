@@ -8,8 +8,8 @@
             "Lavoiesl\\APCPolyfill\\Test\\": "tests/"
         }
     },
-    "require": {
-        "ext-apcu": "*"
+    "suggest": {
+        "ext-apcu": "This only works if APCu is enabled, but it's possible to install this polyfill without it."
     },
     "license": "MIT",
     "authors": [
